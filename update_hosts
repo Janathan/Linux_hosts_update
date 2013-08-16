@@ -9,8 +9,23 @@
 #202.45.84.58 (HK)
 #8.8.8.8 / 8.8.4.4  (Google Public DNS)
 #202.101.172.35 (China telecom)
+#202.12.27.33 (Japan)
+#root dns server
+#A.root-servers.net 198.41.0.4         US
+#B.root-servers.net 192.228.79.201     US
+#C.root-servers.net 192.33.4.12        FR
+#D.root-servers.net 128.8.10.90        US 
+#E.root-servers.net 192.203.230.10     US 
+#F.root-servers.net 192.5.5.241        US
+#G.root-servers.net 192.112.36.4       US
+#H.root-servers.net 128.63.2.53        US 
+#I.root-servers.net 192.36.148.17      SE
+#J.root-servers.net 192.58.128.30      US
+#K.root-servers.net 193.0.14.129       EN 
+#L.root-servers.net 198.32.64.12       US
+#M.root-servers.net 202.12.27.33       JP
 
-dns_server="168.95.1.1" #default DNS server for nslookup
+dns_server="202.45.84.58" #default DNS server for nslookup
 
 #for mode 1
 dns_download_url="https://smarthosts.googlecode.com/svn/trunk/hosts"
